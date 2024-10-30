@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    font-family: "Gabarito", sans-serif;
+
+
+
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+   
+   
+}
+
+.navbar_s1__title {
+    color: #a435fa;
+    ;
+
+}
+
+.navbar_s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+}
+
+.navbar_s2 input {
+    border: none;
+    font-size: 16px;
+    width: 60%;
+}
+
+.navbar_s2 input:focus {
+    outline: none;
+}
+
+.navbar_s3 {
+    display: flex;
+    align-items: center;
+    
+    gap: 10px;
+   
+    
+
+}
+.Mylearning{
+    position: relative;
+    cursor: pointer;
+
+
+}
+.Mylearning:hover .Mylearning_popup{
+    display: block;
+}
+.Mylearning_popup{
+
+    position: absolute;
+    background-color: white;
+  
+    width: 100px;
+    top: 90%;
+    padding: 20px;
+    right: 0;
+    display: none;
+
+}
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: solid black 1px;
+
+}
+
+.categories p {
+    background-color: purple;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.sale-img img {
+    width: 100%;
+    position: relative;
+}
+
+.recommended {
+    padding: 10px;
+}
+
+.course_card img {
+    width: 90%;
+
+
+
+}
+
+.course_card {
+    width: 300px;
+}
+
+.Recommended_container {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.topics {
+    padding: 10px;
+
+}
+
+.Topics--container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Topics--container p {
+    border: solid grey 2px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.popular {
+    padding: 10px;
+    
+  
+  
+}
+
+
+.Popular-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+ 
+ 
+    
+}
+.topics{
+    padding: 10px;
+}
+.alter{
+    height:180px
+}
+.footer_1{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+.footer_2{
+    
+    justify-content: space-between;
+}
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    
+}
+.footer_c2{
+    display: flex;
+    margin: 20px;
+    align-items:center ;
+
+    justify-content: space-between;
+}
+.footer_1 p{
+    margin: 20px;
+}
+
+
+
+.sale-img_offer{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: soli 1px black;
+    bottom: 240px;
+    left: 100px;
+}
